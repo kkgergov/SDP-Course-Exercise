@@ -25,7 +25,8 @@ int main()
     stack<int> s1;
 
     //the second stack is where we are going to generate the string, we use sentinels to denote opening scopes(opening bracket is new scope so we add sentinel to stack)
-    //when we see closing bracket in the input we compute everything in the stack up to the top-most sentinel and pop it, then push the result
+    //when we see closing bracket in the input we compute everything in the stack up to the top-most sentinel and pop it, then copy it stack1.top() number of times
+    //and push the result back in stack 2
 
     stack<string> s2; //we use "@" for sentinel
 
