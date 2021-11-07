@@ -18,7 +18,7 @@ string repeatString(string str, int n)
 
 int main()
 {
-    //////FIRST WE NEED 2 STACKS
+    //////FIRST WE NEED 2 STACKSs
 
     //first stack in which we keep number of repetitions of the top of the string stack
 
